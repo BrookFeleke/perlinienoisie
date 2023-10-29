@@ -1,7 +1,4 @@
-import {
-  noise,
-  noiseSeed,
-} from "../../node_modules/@chriscourses/perlin-noise/index.js";
+import { noise, noiseSeed } from "./perlin-noise/index.js";
 import { randomIntFromRange, randomColor } from "./utils.js";
 import Vector from "./Vector.js";
 const canvas = document.querySelector("canvas");

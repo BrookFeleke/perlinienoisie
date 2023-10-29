@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "canvas.js",
   "dependencies": {
-    "@chriscourses/perlin-noise": "^1.0.5"
+    "@chriscourses/perlin-noise": "^1.0.5",
+    "express": "^4.18.2"
   },
   "devDependencies": {},
   "scripts": {
