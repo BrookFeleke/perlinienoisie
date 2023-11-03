@@ -1,10 +1,4 @@
-// import { createRequire } from "module";
-// const require = createRequire(import.meta.url);
-// const { noise, noiseSeed } = require("@chriscourses/perlin-noise");
-// const { randomIntFromRange, randomColor } = require("./utils.js");
-// import { noise, noiseSeed } from "@chriscourses/perlin-noise";
-// import { randomIntFromRange, randomColor } from "./utils.js";
-// const { Vector } = require("/Vector.js");
+
 const canvas = document.querySelector("canvas");
 const c = canvas.getContext("2d");
 //#region
