@@ -1,12 +1,12 @@
-import { noise, noiseSeed } from "./perlin-noise/index.js";
+import { noise, noiseSeed } from "@chriscourses/perlin-noise";
 import { randomIntFromRange, randomColor } from "./utils.js";
 import Vector from "./Vector.js";
 const canvas = document.querySelector("canvas");
 const c = canvas.getContext("2d");
 
 // **Global Variables** \
-let num = 14000;
-let scaleNoise = 0.001;
+let num = 1000;
+let scaleNoise = 0.1;
 let angleMult = 10;
 let colors = [
   // ["yellow", "blue"],
